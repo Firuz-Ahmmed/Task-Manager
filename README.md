@@ -105,28 +105,28 @@ Setup and Testing Instructions:
 
    ```bash
     composer install
-    Create and configure .env file:
+3. **Create and configure .env file:**
 
-   ```env
+    ```env
     cp .env.example .env
-- **Update the .env file with your database credentials.**
+4. **Update the .env file with your database credentials.**
 
-- **Generate application key:**
+5. **Generate application key:**
 
     ```bash
     php artisan key:generate
-- **Run database migrations:**
+6. **Run database migrations:**
 
-    ```bash
+   ```bash
     php artisan migrate
-- **Run the development server:**
+7. **Run the development server:**
 
      ```bash
     php artisan serve
-- **Testing the API:**
+8. **Testing the API:**
 Use Postman or curl to test the API endpoints as described in the API documentation.
 
-- **Run automated tests:**
+9. **Run automated tests:**
 
 ```bash
     php artisan test
